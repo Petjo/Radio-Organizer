@@ -138,8 +138,6 @@
             }
             else
             {
-
-
                 if (Organizer_MainView.Close_stream != false)
                 {
                     binding_controls();
@@ -166,8 +164,6 @@
 
                     Streaming_http = new Streaming_http(Organizer_MainView);
                     Streaming_http.Run();
-
-
                 }
             }
         }
@@ -191,20 +187,10 @@
             BindingOperations.SetBinding(lbl_show_actual_stream_play_info, ContentProperty, binding_new_stream);
         }
 
-        private void LV_stations_PreviewMouseUp(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
         private void MItem_add_station_Click(object sender, RoutedEventArgs e)
         {
             Window_save_station ws = new Window_save_station(this, List_Stations);
             ws.Show();
-        }
-
-        private void MItem_delete_station_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         protected override void OnClosed(EventArgs e)
