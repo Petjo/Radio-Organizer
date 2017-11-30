@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 
 namespace Organizer
 {
-    //in Developement Class 
+    //in Developement  
 
     public partial class Window_delete_station : Window
     {
