@@ -1,19 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Net;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -23,7 +12,6 @@ namespace Organizer
     public partial class Window_save_station : Window
     {
         MainWindow MainWindow;
-        Organizer_MainView Organizer_MainView;
         List_Stations List_Stations;
         private string string_last_id;
         private string string_new_id;
