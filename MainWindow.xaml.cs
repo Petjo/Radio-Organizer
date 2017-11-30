@@ -133,8 +133,6 @@ namespace Organizer
 
         private void LV_stations_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            //object obj = ((GridView)sender).Content as object;
-
             if (LV_stations.SelectedItem == null)
             {
                 return;
@@ -145,8 +143,6 @@ namespace Organizer
             }
             else
             {
-
-
                 if (Organizer_MainView.Close_stream != false)
                 {
                     binding_controls();
