@@ -1,6 +1,6 @@
 # orgara
 
-This Software was written in C#/XAML and Visual Studio
+This Software was written in C#/XAML and Visual Studio using naudio 1.6.0
 
 IMPORTANT: This Software is a test projet to develop myself in programming. So there can be many things to simplificate.
 
