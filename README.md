@@ -9,4 +9,15 @@ IMPORTANT: This Software is a test project to develop myself in programming. So 
 3. Links must be .mp3 stream format
 4. Some classes are still in developing, ignore them
 
+Ver 1.0 
+
+- displaying actual MP3 title information implemented
+- listening/showing all actually titles from saved stations implemented
+- read functionality from XML implemented
+- input and save of  Stream link, homepage, name of link, genre and comment implemented
+- double entries of links/names not possible
+- doubleclick/play implemented
+
+
+
 
