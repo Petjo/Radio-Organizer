@@ -10,9 +10,13 @@ IMPORTANT: This Software is a test project to develop myself in programming. So 
 3. Links must be .mp3 stream format
 4. Some classes are still in developing, ignore them
 
+
+
 #Buffering
 
 If u have a slow internet connection, set buffersize in class streaming_http x2 or higher, for this it can take a longer time until stream begins
+
+
 
 
 
