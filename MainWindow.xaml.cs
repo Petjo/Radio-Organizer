@@ -121,19 +121,12 @@ namespace Organizer
 
         private void LV_stations_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (LV_stations.SelectedItem == null)
-            {
-
-            }
             if (Organizer_MainView.Close_stream == false)
             {
                 //binding_controls();
             }
             if (Organizer_MainView.Close_stream == true)
             {
-                //Organizer_MainView = (Organizer_MainView)LV_stations.SelectedItem;
-                //List_Stations.Selected_Station = Organizer_MainView;
-
                 binding_controls();
             }
         }
@@ -180,8 +173,6 @@ namespace Organizer
 
                     Streaming_http = new Streaming_http(Organizer_MainView);
                     Streaming_http.Run();
-
-
                 }
             }
         }
@@ -205,23 +196,10 @@ namespace Organizer
             BindingOperations.SetBinding(lbl_show_actual_stream_play_info, ContentProperty, binding_new_stream);
         }
 
-        private void LV_stations_PreviewMouseUp(object sender, MouseButtonEventArgs e)
-        {
-            //if(Organizer_MainView.Close_stream != false)
-            //{
-            //    Organizer_MainView = (Organizer_MainView)LV_stations.SelectedItem;
-            //}
-        }
-
         private void MItem_add_station_Click(object sender, RoutedEventArgs e)
         {
             Window_save_station ws = new Window_save_station(this, List_Stations);
             ws.Show();
-        }
-
-        private void MItem_delete_station_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         protected override void OnClosed(EventArgs e)
